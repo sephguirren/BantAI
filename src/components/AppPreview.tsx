@@ -42,10 +42,10 @@ export function AppPreview() {
             loading="lazy"
             className="mx-auto w-full max-w-5xl drop-shadow-2xl"
           />
-          <div className="mt-8 grid grid-cols-3 gap-4 text-center text-sm text-white/70 sm:gap-8">
-            <span>Risk Map</span>
-            <span>AI Predictions</span>
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-x-10 gap-y-2 text-sm text-white/70 sm:gap-x-36">
+            <span>Profile</span>
             <span>Safe Routes</span>
+            <span>AI Predictions</span>
           </div>
         </div>
       </div>
